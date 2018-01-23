@@ -57,8 +57,8 @@ BasecampSCSS uses the follow rules when naming classes, variables, mixins and fu
 BasecampSCSS/
     basecamp.scss    // compiles everything into BasecampSCSS.css
     base/
-        build.scss
-        config.scss
+        build-camp.scss
+        config-base.scss
     components/
         typography.scss
         forms.scss
