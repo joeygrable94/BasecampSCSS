@@ -1,5 +1,7 @@
-// sass --watch inc/BasecampSCSS/basecamp.scss:inc/css/basecamp.css
-// sass --watch BasecampSCSS/basecamp.scss:css/basecamp.css
+/*
+sass --watch inc/basecamp/basecamp.scss:inc/css/basecamp.css
+sass --watch basecamp/basecamp.scss:css/basecamp.css
+*/
 
 
 //	CHARSET
@@ -18,7 +20,7 @@
 
 //	ESTABLISH BASE						// establish your base styles
 // ===============================================================================================================================
-@import "base/config-base";				// config		-	base level customization, !DEFAULTS
+@import "base/config-base";				// config		 -	base level customization, !DEFAULTS
 
 
 //	IMPORT MODULES						// load internal modules
