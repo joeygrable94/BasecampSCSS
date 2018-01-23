@@ -52,7 +52,7 @@ $color-primary:		$bluePrimary !default;
 $color-secondary:	$yellowGoldmetal !default;
 $color-tertiary:	$redDanger !default;
 
-// status
+// states
 $color-success:		$greenSuccess !default;
 $color-info:		$blueInfo !default;
 $color-warning:		$yellowWarning !default;
@@ -65,45 +65,6 @@ $color-error:		$orangeDark !default;
 // ============================================================
 //
 //	TYPOGRAPHY
-//
-// $load-typesettings:
-//	- loads _typography.scss file
-//
-// $full-screen-responsive:
-//	- sets the html and body tags height & width to 100vh/vw & 100%/100%
-//
-// $base-font-family:
-//	- paragraph content
-//
-// $base-font-headers:
-//	- header content
-//
-// $base-font-mono:
-//	- special characters' styles
-//
-// $base-vertical-nit:
-//	- The vertical grid unit. Margin, padding, and line-height are set to
-//	- multiples of this value. This is the value that determines the baseline
-//	- for our vertical rhythm. The default value of 6px allows more fine
-//	- tuned designs that still obey vertical rhythm.
-//
-// $baseline-mltp:
-//	- This gives type an ideal line-height.
-//	- The value that multiplies the $baseVerticalUnit to get the $base-line-height.
-//
-// $base-font-size:
-//	- base font size in PX, gets converted to ems
-//
-// $ratio-modular-scale:
-//	- the ratio used in modular scale for typography
-//	- is used to figure out all the different font sizes
-//
-// $paragraph-indent:
-//	- Sets paragraphs indent of the first line of a new paragraph OFF or OFF
-//	- Indents all paragraphs exect the first on in a group of p tags (p + p)
-//
-// $paragraph-justify: false !default;
-//	- Sets paragraphs ragged right or justified.
 //
 // ============================================================
 // Load typography.
@@ -131,41 +92,13 @@ $paragraph-indent: true !default;
 $paragraph-justify: false !default;
 
 // base font family
-$base-font-family:
-	Cambria,
-	"Hoefler Text",
-	Utopia,
-	"Liberation Serif",
-	"Nimbus Roman No9 L Regular",
-	Times,
-	"Times New Roman",
-	serif !default;
+$base-font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif !default;
 
 // headers fonts
-$base-font-headers:
-	"Helvetica Neue",
-	Helvetica,
-	Arial,
-	"Liberation Sans",
-	FreeSans,
-	sans-serif
-	!default;
+$base-font-headers: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif !default;
 
 // monospaced fonts
-$base-font-mono:
-	Consolas,
-	"Andale Mono WT",
-	"Andale Mono",
-	"Lucida Console",
-	"Lucida Sans Typewriter",
-	"DejaVu Sans Mono",
-	"Bitstream Vera Sans Mono",
-	"Liberation Mono",
-	"Nimbus Mono L",
-	Monaco,
-	"Courier New",
-	Courier,
-	monospace !default;
+$base-font-mono: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace !default;
 
 
 
@@ -173,7 +106,7 @@ $base-font-mono:
 
 // ============================================================
 //
-//	ELEMENTS' DEFAULTS
+//	ELEMENTS
 //
 // ============================================================
 
