@@ -9,8 +9,8 @@ View the latest stable version in use at [JoeyGrable.com/git/BasecampSCSS](http:
 ## Getting Started
 
 - clone the repository into your css folder
-- inside BasecampSCSS/ edit "base/config-base.scss" to customize your BasecampSCSS settings
-- add your custom styles to "base/build-camp.scss"
+- inside BasecampSCSS/ edit base/config-base.scss to customize your BasecampSCSS settings
+- add your custom styles to base/build-camp.scss
 - compile the sass into css to build your BasecampSCSS
 
 ```
@@ -115,7 +115,7 @@ BasecampSCSS/
 # Build Your BasecampSCSS
 
 - BasecampSCSS is unique because it is easy to do use it without very much configuring to establish a solid wireframe to build your website off of
-- however, BasecampSCSS modules are what we call "Primed Mixins & Functions" and is discused in the following section
+- however, BasecampSCSS modules are what we call Primed Mixins & Functions and is discused in the following section
 - the sections below outline how to implement BasecampSCSS quickly, then how to fully customize the mixins for your use
 
 
