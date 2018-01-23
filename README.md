@@ -9,8 +9,8 @@ View the latest stable version in use at [JoeyGrable.com/git/BasecampSCSS](http:
 ## Getting Started
 
 - clone the repository into your css folder
-- inside BasecampSCSS/ edit "base/config.scss" to customize your BasecampSCSS settings
-- add your custom styles to "base/_build.scss"
+- inside BasecampSCSS/ edit "base/config-base.scss" to customize your BasecampSCSS settings
+- add your custom styles to "base/build-camp.scss"
 - compile the sass into css to build your BasecampSCSS
 
 ```
@@ -88,7 +88,7 @@ BasecampSCSS/
 
 ### Components
 
-- think of Components as the CONTROLLERS that output the CSS styles configured in the base/config and base/build files
+- think of Components as the CONTROLLERS that output the CSS styles configured in the base/config-base.scss and base/build-camp.scss files
 - components contain foundational styles that are calculated using variables from the config file, and mixins or functions from the modules folder
 
 
@@ -97,7 +97,7 @@ BasecampSCSS/
 
 - think of modules as the LOGIC that calculates styles
 - modules are mixins or functions that are used internally by BasecampSCSS
-- they are used by variables components or in your base/build file
+- they are used by variables components or in your base/build-camp.scss file
 
 
 
@@ -123,8 +123,8 @@ BasecampSCSS/
 ## Primed Mixins & Functions
 
 - BasecampSCSS mixins are already primed with the default values from your config file
-- this means editing primary website styles are as easy as editing the “base/config.scss” file then compiling the sass into css
-- if you want full customization, it is recomended you establish your web-styles BasecampSCSS in the base/config.scss file, then implement your custom mixins on your site specific DOM elements in the base/build.scss file
+- this means editing primary website styles are as easy as editing the “base/config-base.scss” file then compiling the sass into css
+- if you want full customization, it is recomended you establish your web-styles BasecampSCSS in the base/config-base.scss file, then implement your custom mixins on your site specific DOM elements in the base/build-camp.scss file
 
 
 
@@ -158,7 +158,7 @@ BasecampSCSS/
 3. Import Modules 
 4. Create Components
 5. Build Camp
-..* customize base/build.scss
+..* customize base/build-camp.scss
 
 
 
