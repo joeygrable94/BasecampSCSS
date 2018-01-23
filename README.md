@@ -10,7 +10,12 @@ View the latest stable version in use at [JoeyGrable.com/git/BasecampSCSS](http:
 
 - clone the repository to your htdocs folder
 - edit "base/config.scss" to customize your Basecamp settings
-- add your custom styles to "base/_build.scss" then compile the sass into css to build your basecamp
+- add your custom styles to "base/_build.scss"
+- compile the sass into css to build your basecamp
+
+```
+sass --watch inc/basecamp/basecamp.scss:inc/css/basecamp.css
+```
 
 
 
