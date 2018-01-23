@@ -1,8 +1,8 @@
-# BasecampSCSSSCSS
+# BasecampSCSS
 
 Welcome to BasecampSCSS, a SCSS prototyping framework which allows you to write production ready code at a rapid development pace.
 
-View the latest stable version in use at [JoeyGrable.com/git/BasecampSCSSSCSS](http://joeygrable.com/git/BasecampSCSSSCSS/)
+View the latest stable version in use at [JoeyGrable.com/git/BasecampSCSS](http://joeygrable.com/git/BasecampSCSS/)
 
 
 
@@ -14,7 +14,7 @@ View the latest stable version in use at [JoeyGrable.com/git/BasecampSCSSSCSS](h
 - compile the sass into css to build your BasecampSCSS
 
 ```
-sass --watch inc/BasecampSCSS/BasecampSCSS.scss:inc/css/BasecampSCSS.css
+sass --watch inc/basecamp/basecamp.scss:inc/css/basecamp.css
 ```
 
 
@@ -75,7 +75,7 @@ BasecampSCSS uses the follow rules when naming classes, variables, mixins and fu
 
 ```
 BasecampSCSS/
-    BasecampSCSS.scss    // compiles everything into BasecampSCSS.css
+    basecamp.scss    // compiles everything into BasecampSCSS.css
     base/
         build.scss
         config.scss
