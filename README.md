@@ -1,6 +1,6 @@
 # BasecampSCSS
 
-Welcome to BasecampSCSS, a SCSS prototyping framework which allows you to write production ready code at a rapid development pace.
+Welcome to BasecampSCSS, a SASS/SCSS prototyping framework which allows you to write production ready code at a rapid development pace.
 
 View the latest stable version in use at [JoeyGrable.com/git/BasecampSCSS](http://joeygrable.com/git/BasecampSCSS/)
 
