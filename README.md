@@ -111,6 +111,21 @@ BasecampSCSS/
 
 
 
+## Order of Implementation
+
+- this is the order in which basecamp compiles and executes
+
+1. Import Vendors
+2. Establish Base
+⋅⋅* customize config.scss
+3. Import Modules
+⋅⋅* advance customization only
+4. Create Components
+⋅⋅* advance customization only
+5. Build Camp
+⋅⋅* customize base/build-camp.scss
+
+
 
 # Build Your BasecampSCSS
 
@@ -148,21 +163,7 @@ BasecampSCSS/
 
 
 
-## Order of Implementation
-
-- this is the order in which basecamp compiles and executes
-
-1. Import Vendors
-2. Establich Base
-..* customize config.scss
-3. Import Modules 
-4. Create Components
-5. Build Camp
-..* customize base/build-camp.scss
-
-
-
-## Simple Example (using config defaults)
+## 
 
 
 
