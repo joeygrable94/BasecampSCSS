@@ -117,13 +117,9 @@ BasecampSCSS/
 
 1. Import Vendors
 2. Establish Base
-    - customize config.scss
 3. Import Modules
-    - advance customization only
 4. Create Components
-    - advance customization only
 5. Build Camp
-    - customize base/build-camp.scss
 
 
 
