@@ -159,3 +159,13 @@ BasecampSCSS/
 4. Create Components
 5. Build Camp
 ..* customize base/build.scss
+
+
+
+## Simple Example (using config defaults)
+
+
+
+## Complex Example (overwriting config defaults, customizing on the fly)
+
+
