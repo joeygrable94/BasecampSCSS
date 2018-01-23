@@ -768,8 +768,19 @@ body {
 
 // BUTTONS
 .buttons {
-	@include contain(720px);
 	@include margin-em($mltp: 4, $sides: bottom);
+	
+	@include respond-to($breakpoint: 500px) {
+		@include contain(400px);
+	}
+	
+	@include respond-to($breakpoint: 600px) {
+		@include contain(500px);
+	}
+	
+	@include respond-to($breakpoint: 900px) {
+		@include contain(900px);
+	}
 }
 
 

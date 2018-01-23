@@ -19,12 +19,7 @@ button, input.btn {
 				$color-hover:		$btn-default-color-hover,
 				$background-hover:	$btn-default-background-hover,
 		);
-		@include border(
-			$sides: true,
-			$border-width: $btn-default-border-width,
-			$border-style: $btn-default-border-style,
-			$border-color: $btn-default-border-color,
-		);
+		@include border($border-color: $btn-default-border-color);
 	}
 
 	&.primary {
@@ -34,12 +29,7 @@ button, input.btn {
 				$color-hover:		$btn-primary-color-hover,
 				$background-hover:	$btn-primary-background-hover,
 		);
-		@include border(
-			$sides: true,
-			$border-width: $btn-primary-border-width,
-			$border-style: $btn-primary-border-style,
-			$border-color: $btn-primary-border-color,
-		);
+		@include border($border-color: $btn-primary-border-color);
 	}
 
 	&.secondary {
@@ -49,12 +39,7 @@ button, input.btn {
 				$color-hover:		$btn-secondary-color-hover,
 				$background-hover:	$btn-secondary-background-hover,
 		);
-		@include border(
-			$sides: true,
-			$border-width: $btn-secondary-border-width,
-			$border-style: $btn-secondary-border-style,
-			$border-color: $btn-secondary-border-color,
-		);
+		@include border($border-color: $btn-secondary-border-color);
 	}
 
 	&.tertiary {
@@ -64,12 +49,7 @@ button, input.btn {
 				$color-hover:		$btn-tertiary-color-hover,
 				$background-hover:	$btn-tertiary-background-hover,
 		);
-		@include border(
-			$sides: true,
-			$border-width: $btn-tertiary-border-width,
-			$border-style: $btn-tertiary-border-style,
-			$border-color: $btn-tertiary-border-color,
-		);
+		@include border($border-color: $btn-tertiary-border-color);
 	}
 
 	&.success {
@@ -79,12 +59,7 @@ button, input.btn {
 				$color-hover:		$btn-success-color-hover,
 				$background-hover:	$btn-success-background-hover,
 		);
-		@include border(
-			$sides: true,
-			$border-width: $btn-success-border-width,
-			$border-style: $btn-success-border-style,
-			$border-color: $btn-success-border-color,
-		);
+		@include border($border-color: $btn-success-border-color);
 	}
 
 	&.info {
@@ -94,12 +69,7 @@ button, input.btn {
 				$color-hover:		$btn-info-color-hover,
 				$background-hover:	$btn-info-background-hover,
 		);
-		@include border(
-			$sides: true,
-			$border-width: $btn-info-border-width,
-			$border-style: $btn-info-border-style,
-			$border-color: $btn-info-border-color,
-		);
+		@include border($border-color: $btn-info-border-color);
 	}
 
 	&.warning {
@@ -109,12 +79,7 @@ button, input.btn {
 				$color-hover:		$btn-warning-color-hover,
 				$background-hover:	$btn-warning-background-hover,
 		);
-		@include border(
-			$sides: true,
-			$border-width: $btn-warning-border-width,
-			$border-style: $btn-warning-border-style,
-			$border-color: $btn-warning-border-color,
-		);
+		@include border($border-color: $btn-warning-border-color);
 	}
 
 	&.error {
@@ -124,12 +89,7 @@ button, input.btn {
 				$color-hover:		$btn-error-color-hover,
 				$background-hover:	$btn-error-background-hover,
 		);
-		@include border(
-			$sides: true,
-			$border-width: $btn-error-border-width,
-			$border-style: $btn-error-border-style,
-			$border-color: $btn-error-border-color,
-		);
+		@include border($border-color: $btn-error-border-color);
 	}
 
 }

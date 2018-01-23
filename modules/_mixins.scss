@@ -15,28 +15,6 @@
 //
 //	BASE XY
 //
-// @mixin baseXY:
-//	$width: 100% !default
-//	$height: 100vh !default
-//	$position: relative !default
-//
-// @mixin baseX:
-//	$width: 100vh !default
-//	$position: relative !default
-//
-// @mixin baseY:
-//	$height: 100vh !default
-//	$position: relative !default
-//
-// @mixin baseC:
-//	$columns: 12 !default;
-//
-// div.articlesWrap {
-//     @include baseX(100%);
-//     @include baseY(100vh);
-//     @include baseC(12);
-// }
-//
 // ============================================================
 // gridXY => grid window
 @mixin base-xy($width: 100%, $height: 100vh) {
@@ -381,21 +359,6 @@
 // ============================================================
 //	
 //	SPACING
-// 
-// @mixin marginEm:
-// @mixin paddingEm:
-//	$side: true !default;
-//	- where to add the margin spaceing
-//	- (bool) $sides: true !default; 
-//	- (list) $sides: "top", "right", "bottom", "left"
-//	- (string) $sides: "top"
-//	$mltp: 1 !default;
-//	- the relative value to multiply the spacing by the rhythm-em
-//	
-// .contentBlock {
-//     @include margin($side, $mltp);
-//     @include padding($side, $mltp);
-// }
 // 
 // ============================================================
 // unitless margin (mltp may be any unit, will return an ratio:scaled value of the same unit)
