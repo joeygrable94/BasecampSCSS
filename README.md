@@ -8,13 +8,13 @@ View the latest stable version in use at [JoeyGrable.com/git/BasecampSCSS](http:
 
 ## Getting Started
 
-- clone the repository to your htdocs folder
+- clone the repository to your css folder
 - edit "base/config.scss" to customize your BasecampSCSS settings
 - add your custom styles to "base/_build.scss"
 - compile the sass into css to build your BasecampSCSS
 
 ```
-sass --watch basecamp.scss:basecamp.css
+sass --watch basecamp/basecamp.scss:basecamp.css
 ```
 
 
@@ -25,7 +25,7 @@ BasecampSCSS uses the follow rules when naming classes, variables, mixins and fu
 
 
 
-### Variables and Classes
+### Classes & SASS Variables
 
 ```
 .classes-like-this {
@@ -36,15 +36,15 @@ BasecampSCSS uses the follow rules when naming classes, variables, mixins and fu
 
 
 
-### Mixins & Functions (primed)
+### Primed Mixins & Functions
 
 
 ```
 @mixin name-property-action(
-    $variable-one: $config-default,
-    $variable-two: $config-default
+    $variable-one: $config-default-1,   // primed with base/config.scss defaults
+    $variable-two: $config-default-2
 ) {
-    // do stuff with defaults or overwrite them
+    // do stuff with defaults
 }
 
 ```
@@ -57,13 +57,13 @@ BasecampSCSS uses the follow rules when naming classes, variables, mixins and fu
 ```
 .inside-class-or-id {
 
-    // call the mixin or function with config defaults
+    // call primed mixin or function with config defaults
     @include name-property-action();
 
-    // call but overwrite the defaults to customize
+    // call primed mixin or function, but customize by overwriting the config default
     @include name-property-action(
-        $variable-one: overwrite,
-        $variable-two: overwrite
+        $variable-one: $overwrite-var-1,
+        $variable-two: $overwrite-var-2
     );
 }
 
@@ -108,7 +108,7 @@ BasecampSCSS/
 
 ### Components
 
-- think of modules as the CONTROLLERS that output the CSS styles configured in the base/config and base/build file
+- think of Components as the CONTROLLERS that output the CSS styles configured in the base/config and base/build file
 - components contain foundational styles that are calculated using variables from the config file, and mixins or functions from the modules folder
 
 
