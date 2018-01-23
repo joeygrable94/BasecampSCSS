@@ -14,7 +14,7 @@ View the latest stable version in use at [JoeyGrable.com/git/BasecampSCSS](http:
 - compile the sass into css to build your BasecampSCSS
 
 ```
-sass --watch inc/basecamp/basecamp.scss:inc/css/basecamp.css
+sass --watch basecamp.scss:basecamp.css
 ```
 
 
