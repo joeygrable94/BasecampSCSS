@@ -163,10 +163,30 @@ BasecampSCSS/
 
 
 
-## 
+## Configure Base (config-base.scss)
+
+- the configuration file contains everything you need to customize the base styles of your website
 
 
 
-## Complex Example (overwriting config defaults, customizing on the fly)
+###  CSS Grid
+
+### Responsize Media
+
+### Color
+
+### Typography
+
+### Elements: borders
+
+### Forms
+
+### Tables
+
+### Buttons
+
+
+
+## Build Camp (build-camp.scss)
 
 
