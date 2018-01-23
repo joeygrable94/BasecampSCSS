@@ -41,30 +41,10 @@ BasecampSCSS uses the follow rules when naming classes, variables, mixins and fu
 
 ```
 @mixin name-property-action(
-    $variable-one: $config-default-1,   // primed with base/config.scss defaults
+    $variable-one: $config-default-1,
     $variable-two: $config-default-2
 ) {
     // do stuff with defaults
-}
-
-```
-
-
-
-### Usage
-
-
-```
-.inside-class-or-id {
-
-    // call primed mixin or function with config defaults
-    @include name-property-action();
-
-    // call primed mixin or function, but customize by overwriting the config default
-    @include name-property-action(
-        $variable-one: $overwrite-var-1,
-        $variable-two: $overwrite-var-2
-    );
 }
 
 ```
@@ -108,7 +88,7 @@ BasecampSCSS/
 
 ### Components
 
-- think of Components as the CONTROLLERS that output the CSS styles configured in the base/config and base/build file
+- think of Components as the CONTROLLERS that output the CSS styles configured in the base/config and base/build files
 - components contain foundational styles that are calculated using variables from the config file, and mixins or functions from the modules folder
 
 
@@ -132,7 +112,7 @@ BasecampSCSS/
 
 
 
-## Build Your BasecampSCSS
+# Build Your BasecampSCSS
 
 - BasecampSCSS is unique because it is easy to do use it without very much configuring to establish a solid wireframe to build your website off of
 - however, BasecampSCSS modules are what we call "Primed Mixins & Functions" and is discused in the following section
@@ -140,25 +120,15 @@ BasecampSCSS/
 
 
 
-### Primed Mixins & Functions
+## Primed Mixins & Functions
 
 - BasecampSCSS mixins are already primed with the default values from your config file
 - this means editing primary website styles are as easy as editing the “base/config.scss” file then compiling the sass into css
 - if you want full customization, it is recomended you establish your web-styles BasecampSCSS in the base/config.scss file, then implement your custom mixins on your site specific DOM elements in the base/build.scss file
 
-```
-@mixin name-property-action(
-    $variable-one: $config-default,
-    $variable-two: $config-default
-) {
-    // do stuff with defaults or overwrite them
-}
-
-```
 
 
-
-#### Primed Mixin Usage:
+### Primed Mixin Usage:
 
 
 ```
@@ -180,7 +150,12 @@ BasecampSCSS/
 
 ## Order of Implementation
 
-- ESTABLISH BASE
-- IMPORT MODULES
-- COMPONENTS
-- BUILD CAMP
+- this is the order in which basecamp compiles and executes
+
+1. Import Vendors
+2. Establich Base
+..* customize config.scss
+3. Import Modules 
+4. Create Components
+5. Build Camp
+..* customize base/build.scss

@@ -17,7 +17,7 @@
 
 //	ESTABLISH BASE						// establish your base styles
 // ===============================================================================================================================
-@import "base/config";					// config		-	base level customization, !DEFAULTS
+@import "base/config-base";					// config		-	base level customization, !DEFAULTS
 
 
 //	IMPORT MODULES						// load internal modules
@@ -42,4 +42,4 @@
 
 //	BUILD CAMP
 // ===============================================================================================================================
-@import "base/build";					// build your basecamp
+@import "base/build-camp";					// build your basecamp
