@@ -143,7 +143,7 @@ BasecampSCSS/
 
 
 
-### Primed Mixin Usage:
+### Primed Mixin & Function Usage:
 
 
 ```
