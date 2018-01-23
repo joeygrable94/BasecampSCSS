@@ -336,3 +336,156 @@ $btn-default-border-color: $black;
 ## Build Camp (build-camp.scss)
 
 
+
+### Primed Mixins
+
+```
+@mixin base-xy($width: 100vw, $height: 100vh) {}
+@mixin base-x($width: 100%) {}
+@mixin base-y($height: 100vh) {}
+@mixin base-columns($columns: 12) {}
+
+@mixin gridinator(
+    $type: grid,
+    $columns: $gridinator-cols,
+    $rows: $gridinator-rows,
+    $gap: $gridinator-gap,
+    $justify-items: stretch,
+    $align-items: stretch,
+    $justify-content: stretch,
+    $align-content: stretch
+) {}
+@mixin g-child($justify-self: stretch, $align-self: stretch) {}
+@mixin g-cols($start: 1, $end: 2) {}
+@mixin g-rows($start: 1, $end: 2) {}
+
+@mixin debug-vertical-alignment(
+    $opacity: 0.8,
+    $vertical-unit: $baseline-unit,
+    $type-baseline-mltp: $baseline-mltp,
+    $type-size: $base-font-em
+) {}
+@mixin rhythm-border-top($border-width: 1px, $lines: $baseline-mltp, $font-size: $base-font-em) {}
+@mixin rhythm-border-bottom($border-width: 1px, $lines: $baseline-mltp, $font-size: $base-font-em) {}
+@mixin rhythm-border($border-width: 1px, $lines: $baseline-mltp, $font-size: $base-font-em) {}
+
+@mixin flex(
+    $display: flex,
+    $direction: row,
+    $wrap: wrap,
+    $justify-content: flex-start,
+    $align-items: stretch,
+    $align-content: stretch
+) {}
+@mixin flex-child(
+    $order: 0,
+    $align: auto
+) {}
+
+@mixin box(
+    $width: auto,
+    $height: auto,
+    $display: block
+) {}
+@mixin box-position(
+    $position: relative,
+    $location: (top: auto, right: auto, bottom: auto, left: auto)
+) {}
+@mixin float($float: none) {}
+
+@mixin z-depth($index: auto) {}
+
+@mixin scroll-box($direction: y, $bar: true) {}
+@mixin scroll-hide() {}
+
+@mixin contain($breakpoint: 960px) {}
+
+@mixin margin($mltp: 1px, $sides: true) {}
+@mixin margin-em($mltp: 1, $sides: true) {}
+@mixin padding($mltp: 1px, $sides: true) {}
+@mixin padding-em($mltp: 1, $sides: true) {}
+
+@mixin typesettings-init($full-screen-responsive: true) {
+@mixin set-type(
+    $lines: $baseline-mltp,
+    $font-size: $base-font-em,
+    $silent: false
+) {}
+@mixin set-leading(
+    $lines: $baseline-mltp,
+    $font-size: $base-font-em,
+    $silent: false
+) {}
+
+@mixin button-base($display: inline-block) {}
+@mixin button-size($padding-y: 1, $padding-x: 3) {}
+@mixin button-size-em($padding-y: 1, $padding-x: 3) {}
+@mixin button-color(
+    $color: $black,
+    $color-hover: $white,
+    $background: $white,
+    $background-hover: $black50,
+) {}
+@mixin button-outline(
+    $color: $black,
+    $color-hover: $grayDark,
+    $background-active: $color,
+    $border-active: lighten($color, 10%)
+) {}
+@mixin button-link(
+    $font-weight: $btn-font-weight,
+    $link-color: $color-primary,
+    $link-color-hover: darken($color-primary, 7.5%),
+    $link-decoration-hover: underline
+) {}
+
+@mixin form-input-base(
+    $display: block,
+    $border-radius: $form-input-border-radius,
+    $border-focus: $form-input-focus-border-color,
+    $input-color: $form-input-color,
+    $input-background: $form-input-background-color,
+    $input-border: $form-input-border,
+    $input-border-radius: $form-input-border-radius
+) {}
+@mixin form-input-focus(
+    $input-focus-color:         $form-input-focus-color,
+    $input-focus-background:    $form-input-focus-background,
+    $input-focus-border-color:  $form-input-focus-border-color,
+    $input-box-shadow:          $form-input-box-shadow,
+    $input-focus-box-shadow:    ($form-input-box-shadow, $form-input-focus-box-shadow)
+) {}
+@mixin form-input-plaintext() {
+
+@mixin image-fluid {}
+@mixin image-retina($file-1x, $file-2x, $width-1x, $height-1x) {}
+
+@mixin hover {}
+@mixin focus {}
+@mixin active {}
+@mixin disabled {}
+@mixin hover-focus {}
+@mixin plain-hover-focus {}
+@mixin hover-focus-active {}
+@mixin focus-active {}
+
+@mixin border(
+    $sides: true,
+    $border-width: $border-width-default,
+    $border-style: $border-style-default,
+    $border-color: $border-color-default,
+) {}
+@mixin border-radius($radius: $border-radius-default) {}
+@mixin border-top-radius($radius) {}
+@mixin border-right-radius($radius) {}
+@mixin border-bottom-radius($radius) {}
+@mixin border-left-radius($radius) {}
+
+@mixin respond-to($breakpoint, $media: all) {}
+@mixin breakpoint($breakpoint, $media: all) {}
+@mixin bp($breakpoint, $media: all) {}
+@mixin high-dpi($media: all) {}
+```
+
+
+

@@ -1,16 +1,8 @@
-
 // ============================================================
 //
 //	CONFIG BASECAMP
 //
 // ============================================================
-// Prototyping Mode: adds CSS prototyping classes to the BASECAMP sass=>css output
-$prototype: false;
-
-// Production Mode:
-//	- before pushing files to server,
-//	  compile sass w/ $production: true, and debug
-$production: false;
 
 
 
@@ -21,6 +13,7 @@ $production: false;
 //	CSS GRID DEFAULTS
 //
 // ============================================================
+
 // 2x2 square grid, no gap
 $gridinator-cols: "repeat(2, 1fr)";
 $gridinator-rows: "repeat(2, 1fr)";
@@ -35,6 +28,7 @@ $gridinator-gap: 0px 0px;
 //	RESPONSIVE: MOBILE FIRST
 //
 // ============================================================
+
 // breakpoints
 $breakpoint-sm: 420px;
 $breakpoint-md: 760px;
@@ -50,6 +44,7 @@ $breakpoint-xl: 1440px;
 //	COLORS
 //
 // ============================================================
+
 // palettes
 $color-primary:		$bluePrimary !default;
 $color-secondary:	$yellowGoldmetal !default;
@@ -70,7 +65,8 @@ $color-error:		$orangeDark !default;
 //	TYPOGRAPHY
 //
 // ============================================================
-// Load typography.
+
+// load typography
 $load-typesettings: true !default;
 
 // if full screen responsive app enabled
@@ -128,6 +124,7 @@ $border-radius-default: $baseline-mltp;
 //	FORMS
 //
 // ============================================================
+
 // label
 $form-label-font-weight: 400;
 
@@ -160,9 +157,9 @@ $form-input-focus-box-shadow: 0px 0px 5px -2px $color-primary;
 //	TABLES
 //
 // ============================================================
+
 $table-row-bordered: true !default;
 $table-row-striped: true !default;
-
 
 
 
