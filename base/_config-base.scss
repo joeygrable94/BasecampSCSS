@@ -46,15 +46,15 @@ $breakpoint-xl: 1440px;
 // ============================================================
 
 // palettes
-$color-primary:		$bluePrimary !default;
-$color-secondary:	$yellowGoldmetal !default;
-$color-tertiary:	$redDanger !default;
+$color-primary:		$blue-primary !default;
+$color-secondary:	$yellow-goldmetal !default;
+$color-tertiary:	$red-danger !default;
 
 // states
-$color-success:		$greenSuccess !default;
-$color-info:		$blueInfo !default;
-$color-warning:		$yellowWarning !default;
-$color-error:		$orangeDark !default;
+$color-success:		$green-success !default;
+$color-info:		$blue-info !default;
+$color-warning:		$yellow-warning !default;
+$color-error:		$orange-dark !default;
 
 
 
@@ -135,7 +135,7 @@ $form-input-box-shadow: 0px 0px 5px -2px $color-primary;
 
 // input border
 $form-input-border-width: 1px;
-$form-input-border-color: $grayLight;
+$form-input-border-color: $gray-light;
 $form-input-border: $form-input-border-width solid $form-input-border-color;
 $form-input-border-radius: 0px;
 
@@ -178,7 +178,7 @@ $table-row-striped: true !default;
 	$btn-border-width: 2px;
 	$btn-border-style: solid;
 	$btn-border-color: $black;
-	$btn-link-disabled-color: $graySilver;
+	$btn-link-disabled-color: $gray-silver;
 
 	// default
 	$btn-default-color: $white;

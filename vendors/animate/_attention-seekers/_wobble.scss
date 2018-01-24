@@ -10,7 +10,7 @@
   100% {@include transform(translateX(0%));}
 }
 
-@mixin wobble($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+@mixin wobble($count: $count-default, $duration: $duration-default, $delay: $delay-default, $function: $function-default, $fill: $fill-default, $visibility: $visibility-default) {
 	@include animation-name(wobble);
   @include count($count);
   @include duration($duration);

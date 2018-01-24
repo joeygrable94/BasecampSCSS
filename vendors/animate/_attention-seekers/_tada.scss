@@ -6,7 +6,7 @@
 	100% {@include transform(scale(1) rotate(0));}
 }
 
-@mixin tada($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+@mixin tada($count: $count-default, $duration: $duration-default, $delay: $delay-default, $function: $function-default, $fill: $fill-default, $visibility: $visibility-default) {
 	@include animation-name(tada);
 	@include count($count);
 	@include duration($duration);
