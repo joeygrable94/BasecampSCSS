@@ -5,8 +5,7 @@ Welcome to BasecampSCSS, a SASS/SCSS prototyping framework which allows you to w
 View the latest stable version in use at [JoeyGrable.com/git/BasecampSCSS](http://joeygrable.com/git/BasecampSCSS/)
 
 ## To Do
-- rename ColorMeSass variables to match BasecampSCSS naming conventions
-- mobile responsive prototypes
+- rename this project... aparently [basecamp.com](http://basecamp.com) is already a popular name
 - test case and code refactoring
 - add examples to README
 
