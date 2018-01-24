@@ -6,6 +6,7 @@ View the latest stable version in use at [JoeyGrable.com/git/BasecampSCSS](http:
 
 ## To Do
 - rename this project... aparently [basecamp.com](http://basecamp.com) is already a popular name
+- add CSS3 mixins (ie. box-shadow, transition, perspective, transition, box-shadow)
 - test case and code refactoring
 - add examples to README
 
