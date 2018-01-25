@@ -235,12 +235,15 @@
 // flex child
 @mixin flex-child(
 	$order: 0,
-	$align: auto
+	$align: auto,
+	$flex: 0 1 auto // <flex-grow> <flex-shrink> <flex-basis>
 ) {
 	-webkit-order: $order;	
 	order: $order;
 	-webkit-align-self: $align;
 	align-self: $align;
+	-webkit-flex: $flex;
+	flex: $flex;
 }
 
 
